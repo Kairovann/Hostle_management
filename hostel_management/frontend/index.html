@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HostelDesk | Login</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="login-page">
+    <main class="login-layout">
+        <section class="login-intro">
+            <div class="login-brand"><span class="brand-mark">H</span> HostelDesk</div>
+            <div>
+                <p class="eyebrow">HOSTEL MANAGEMENT PORTAL</p>
+                <h1>One place to manage your hostel.</h1>
+                <p>Manage students, rooms, fees, complaints and everyday hostel operations.</p>
+            </div>
+            <span class="login-footer">A simple and organised hostel experience.</span>
+        </section>
+        <section class="login-side">
+            <form class="login-card" id="login-form">
+                <p class="eyebrow">WELCOME BACK</p>
+                <h2>Sign in to your account</h2>
+                <p class="muted">Enter your account details to continue.</p>
+                <label class="form-field"><span>Email address</span><input id="email" type="email" required placeholder="name@example.com"></label>
+                <label class="form-field"><span>Password</span><input id="password" type="password" required placeholder="Enter your password"></label>
+                <p class="error-message" id="login-error"></p>
+                <button class="button button-primary button-wide" type="submit">Sign in</button>
+                <div class="demo-credentials">
+                    <strong>Demo accounts</strong>
+                    <span>Admin: admin@hostel.com / admin123</span>
+                    <span>Student: student@hostel.com / student123</span>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script type="module" src="js/logic/auth.logic.js"></script>
+</body>
+</html>
