@@ -1,6 +1,0 @@
-fastapi
-uvicorn[standard]
-pymysql
-bcrypt
-PyJWT
-python-dotenv
